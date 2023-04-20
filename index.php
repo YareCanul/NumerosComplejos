@@ -20,7 +20,7 @@
 <nav class="navbar navbar-expand-lg bg-info navbar-dark">
 <div class="container-fluid">
         <!-- Navbar brand -->
-        <a class="navbar-brand" href="#">Operaciones con numeros complejos</a>
+        <a class="navbar-brand" href="#">Calculadora de Numeros complejos</a>
 
         <!-- Icons -->
         <ul class="navbar-nav d-flex flex-row me-1">
@@ -56,9 +56,10 @@
 					<input type="text" class="form-control" id="real1" name="real1">
 				</div>
 				<label for="imag1" class="col-sm-2 col-form-label">Imaginario 1:</label>
-				<div class="col-sm-4">
-					<input type="text" class="form-control" id="imag1" name="imag1">
-				</div>
+				<div class="col-sm-3 d-flex align-items-center">
+            <input type="text" class="form-control" id="imag1" name="imag1" style="width: 100px;">
+                 <span class="input-group-text" style="font-weight: bold; font-size: 16px;">i</span>
+               </div>
 			</div>
             
 			<div class="row mb-3 justify-content">
@@ -76,16 +77,19 @@
             <div class="row mb-3">
 				<label for="real2" class="col-sm-1 col-form-label">Real 2:</label>
 				<div class="col-sm-4">
-					<input type="text" class="form-control" id="real2" name="real2">
+                <input type="text" class="form-control" id="real2" name="real2">
 				</div>
 				<label for="imag2" class="col-sm-2 col-form-label">Imaginario 2:</label>
-				<div class="col-sm-4">
-					<input type="text" class="form-control" id="imag2" name="imag2">
-				</div>
+               <div class="col-sm-3 d-flex align-items-center">
+            <input type="text" class="form-control" id="imag2" name="imag2" style="width: 100px;">
+                 <span class="input-group-text" style="font-weight: bold; font-size: 16px;">i</span>
+               </div>
+
 			</div>
 			
 			<div class="text-center">
 				<button type="submit"  class="btn btn-primary">Calcular</button>
+                <button type="reset"  class="btn btn-danger">Borrar</button>
 			</div>
             <br>
             <br>
